@@ -23,3 +23,5 @@ This mod was created solely for entertainment and educational purposes within th
 If you like my work, you can support me here:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S11Z6B5J)
+
+Mod created with MCreator: https://mcreator.net/about
