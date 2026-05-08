@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/vape_coil",
+  "textures": {
+    "0": "breaking_chemistry:block/coil_txt",
+    "particle": "minecraft:item/iron_nugget"
+  }
+}

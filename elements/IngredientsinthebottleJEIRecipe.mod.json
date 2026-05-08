@@ -1,0 +1,36 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "heating_mantle_type_jei",
+    "ingredients": [
+      {
+        "value": "CUSTOM:RoundBottomedFlask"
+      },
+      {
+        "value": "CUSTOM:Chemicalcondenser"
+      },
+      {
+        "value": "CUSTOM:Coldtablets"
+      },
+      {
+        "value": "CUSTOM:Phosphoruspowder"
+      },
+      {
+        "value": "CUSTOM:DisinfectantLiquid"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "HeatingMantleTypeJEI",
+    "results": [
+      {
+        "value": "CUSTOM:Ingredientsinthebottle"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

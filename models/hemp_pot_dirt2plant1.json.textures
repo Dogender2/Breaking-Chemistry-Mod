@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "hemp_pot_txt1",
+        "1": "hemp_pot_dirt",
+        "2": "seedstxt",
+        "3": "hempplant1",
+        "missing": ""
+      }
+    }
+  }
+}

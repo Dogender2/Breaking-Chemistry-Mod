@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:weed"
+    }
+  ],
+  "result": {
+    "id": "breaking_chemistry:hemp_seeds",
+    "count": 1
+  }
+}

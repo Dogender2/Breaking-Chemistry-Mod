@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "breaking_chemistry:block/sulfur_ore_txt",
+    "particle": "breaking_chemistry:block/sulfur_ore_txt"
+  },
+  "render_type": "solid"
+}

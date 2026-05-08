@@ -1,0 +1,16 @@
+{
+  "_fv": 85,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Dealer",
+    "pointOfInterest": {
+      "value": "CUSTOM:Dealercache"
+    },
+    "actionSound": {
+      "value": "ambient.soul_sand_valley.mood"
+    },
+    "hat": "Full",
+    "professionTextureFile": "villager_dealer_skin.png",
+    "zombifiedProfessionTextureFile": "villager_dealer_skin.png"
+  }
+}

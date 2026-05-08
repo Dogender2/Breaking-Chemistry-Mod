@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "breaking_chemistry:steel_spring"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "id": "breaking_chemistry:vape_coil",
+    "count": 1
+  }
+}

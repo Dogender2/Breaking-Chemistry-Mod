@@ -1,0 +1,56 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jei_laboratory_sep.png",
+    "width": 175,
+    "height": 81,
+    "icon": {
+      "value": "CUSTOM:Laboratoryseparator"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:Laboratoryseparator"
+      }
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": false,
+    "enableStringList": false,
+    "disableJeiBorder": false,
+    "title": "Laboratory Separator",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 28,
+        "y": 23,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 134,
+        "y": 23,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 74,
+        "y": 23,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 134,
+        "y": 60,
+        "slotid": 1
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

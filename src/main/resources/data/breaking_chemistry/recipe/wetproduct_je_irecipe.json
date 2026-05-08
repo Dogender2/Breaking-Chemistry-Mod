@@ -1,0 +1,17 @@
+{
+  "type": "breaking_chemistry:gaslq_jei_type",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:filtered_acid_solution"
+    },
+    {
+      "item": "breaking_chemistry:hydrogenchloride_in_tank"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:wet_blue_crystals",
+      "count": 1
+    }
+  ]
+}

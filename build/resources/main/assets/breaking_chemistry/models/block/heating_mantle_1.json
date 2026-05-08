@@ -1,0 +1,10 @@
+{
+  "parent": "breaking_chemistry:custom/heating_mantle_bottle_condenser",
+  "textures": {
+    "all": "breaking_chemistry:block/round-bottomed_flask-txt",
+    "particle": "minecraft:block/iron_block",
+    "0": "breaking_chemistry:block/heating_mantle_bodytxt",
+    "2": "breaking_chemistry:block/round-bottomed_flask-txt"
+  },
+  "render_type": "translucent"
+}

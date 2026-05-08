@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "breaking_chemistry:sulfurbiome",
+    "breaking_chemistry:meth_high_biome",
+    "desert"
+  ],
+  "features": "breaking_chemistry:sulfurore",
+  "step": "underground_ores"
+}

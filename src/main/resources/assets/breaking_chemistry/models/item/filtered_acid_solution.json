@@ -1,0 +1,8 @@
+{
+  "parent": "breaking_chemistry:custom/tray2",
+  "textures": {
+    "0": "breaking_chemistry:block/tray_txt",
+    "1": "breaking_chemistry:block/filtered_acid_solution_txt",
+    "particle": "breaking_chemistry:item/chemical_condenser_txt1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "magneticstirrer_jei_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:Ingredientsinthebottle"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "MagneticstirrerJEIType",
+    "results": [
+      {
+        "value": "CUSTOM:Postreactionmixture"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

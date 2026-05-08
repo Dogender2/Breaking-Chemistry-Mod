@@ -1,0 +1,33 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "hemp_pot_recipe_jei_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:HempPot"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:HempSeeds"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "HempPotRecipeJeiType",
+    "results": [
+      {
+        "value": "CUSTOM:Weed"
+      }
+    ],
+    "resultCounts": [
+      3
+    ],
+    "count": 0
+  }
+}

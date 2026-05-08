@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "breaking_chemistry:blocks/sulfurore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "breaking_chemistry:sulfur",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

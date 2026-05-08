@@ -1,0 +1,2440 @@
+{
+  "mod_elements": [
+    {
+      "name": "BrokenBad",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_bad",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HempSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/hemp_seeds.json",
+          "src/main/java/net/mcreator/brokenbad/item/HempSeedsItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HempPot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/hemp_pot.json",
+          "src/main/java/net/mcreator/brokenbad/block/HempPotBlock.java",
+          "src/main/resources/assets/breaking_chemistry/blockstates/hemp_pot.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_4.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_3.json",
+          "src/main/java/net/mcreator/brokenbad/block/entity/HempPotBlockEntity.java",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/hemp_pot.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_0.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_1.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_5.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/hemp_pot_2.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HempPotOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_pot_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/HempPotOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HempPotOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_pot_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/HempPotOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Weed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/weed.json",
+          "src/main/java/net/mcreator/brokenbad/item/WeedItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RoundBottomedFlask",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_bottomed_flask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/RoundBottomedFlaskItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/round_bottomed_flask.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HeatingMantle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/blockstates/heating_mantle.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/heating_mantle.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/heating_mantle_1.json",
+          "src/main/java/net/mcreator/brokenbad/block/entity/HeatingMantleBlockEntity.java",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/heating_mantle.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/heating_mantle_0.json",
+          "src/main/java/net/mcreator/brokenbad/block/HeatingMantleBlock.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/heating_mantle.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeatingMantleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/client/gui/HeatingMantleGUIScreen.java",
+          "src/main/java/net/mcreator/brokenbad/network/HeatingMantleGUIButtonMessage.java",
+          "src/main/java/net/mcreator/brokenbad/world/inventory/HeatingMantleGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "HeatingMantleOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/HeatingMantleOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HeatingMantleGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/HeatingMantleGUIWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Chemicalcondenser",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_condenser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/chemical_condenser.json",
+          "src/main/java/net/mcreator/brokenbad/item/ChemicalcondenserItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Magneticstirrer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magneticstirrer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/block/MagneticstirrerBlock.java",
+          "src/main/resources/assets/breaking_chemistry/blockstates/magneticstirrer.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/magneticstirrer.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/magneticstirrer.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/magneticstirrer.json",
+          "src/main/java/net/mcreator/brokenbad/block/entity/MagneticstirrerBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Chemicaltable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicaltable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/chemicaltable.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/chemicaltable.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/chemicaltable.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/chemicaltable.json",
+          "src/main/java/net/mcreator/brokenbad/block/entity/ChemicaltableBlockEntity.java",
+          "src/main/java/net/mcreator/brokenbad/block/ChemicaltableBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ChemicaltableOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicaltable_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/ChemicaltableOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HempParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/client/particle/HempParticleParticle.java",
+          "src/main/resources/assets/breaking_chemistry/particles/hemp_particle.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Growlight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growlight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/blockstates/growlight.json",
+          "src/main/java/net/mcreator/brokenbad/block/GrowlightBlock.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/growlight.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/growlight.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/growlight.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/SaltItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/salt.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Saltore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saltore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/block/saltore.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/configured_feature/saltore.json",
+          "src/main/java/net/mcreator/brokenbad/block/SaltoreBlock.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/saltore.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/saltore.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/saltore.json",
+          "src/main/resources/data/breaking_chemistry/neoforge/biome_modifier/saltore_biome_modifier.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/placed_feature/saltore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GasTank",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/gas_tank.json",
+          "src/main/java/net/mcreator/brokenbad/item/GasTankItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "JointPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/JointPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Joint",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/joint.json",
+          "src/main/java/net/mcreator/brokenbad/item/JointItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "JointEveryTickWhileUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_every_tick_while_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/JointEveryTickWhileUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GreenScreenOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_screen_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/client/screens/GreenScreenOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Overlays"
+    },
+    {
+      "name": "ShowOverlay10s",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_overlay_10s",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/ShowOverlay10sProcedure.java"
+        ]
+      },
+      "path": "~/Overlays"
+    },
+    {
+      "name": "MethPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/MethPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Meth",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/MethItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/meth.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MethOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/client/screens/MethOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Overlays"
+    },
+    {
+      "name": "ShowMethOverlay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_meth_overlay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/ShowMethOverlayProcedure.java"
+        ]
+      },
+      "path": "~/Overlays"
+    },
+    {
+      "name": "MethHighBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_high_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/worldgen/placed_feature/meth_high_biome_tree.json",
+          "src/main/java/net/mcreator/brokenbad/world/features/treedecorators/MethHighBiomeLeaveDecorator.java",
+          "src/main/resources/data/breaking_chemistry/worldgen/biome/meth_high_biome.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/configured_feature/meth_high_biome_tree.json",
+          "src/main/java/net/mcreator/brokenbad/world/features/treedecorators/MethHighBiomeTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "Methhighdimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methhighdimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/dimension_type/methhighdimension.json",
+          "src/main/java/net/mcreator/brokenbad/world/dimension/MethhighdimensionDimension.java",
+          "src/main/resources/data/breaking_chemistry/dimension/methhighdimension.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "FatBunnyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fat_bunny_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/FatBunnyOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FatBunny",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fat_bunny",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/fat_bunny_spawn_egg.json",
+          "src/main/java/net/mcreator/brokenbad/client/renderer/FatBunnyRenderer.java",
+          "src/main/java/net/mcreator/brokenbad/entity/FatBunnyEntity.java",
+          "src/main/resources/data/breaking_chemistry/neoforge/biome_modifier/fat_bunny_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "MethHigh",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_high",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/potion/MethHighMobEffect.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MethHighEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_high_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/MethHighEffectStartedappliedProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MethHighEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_high_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/MethHighEffectExpiresProcedure.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Laboratoryseparator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratoryseparator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/laboratoryseparator.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/laboratoryseparator.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/laboratoryseparator.json",
+          "src/main/java/net/mcreator/brokenbad/block/LaboratoryseparatorBlock.java",
+          "src/main/java/net/mcreator/brokenbad/block/entity/LaboratoryseparatorBlockEntity.java",
+          "src/main/resources/assets/breaking_chemistry/models/block/laboratoryseparator.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Postreactionmixture",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "postreactionmixture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/postreactionmixture.json",
+          "src/main/java/net/mcreator/brokenbad/item/PostreactionmixtureItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Ingredientsinthebottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingredientsinthebottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/IngredientsinthebottleItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/ingredientsinthebottle.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Coldtablets",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coldtablets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/coldtablets.json",
+          "src/main/java/net/mcreator/brokenbad/item/ColdtabletsItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Phosphoruspowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphoruspowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/phosphoruspowder.json",
+          "src/main/java/net/mcreator/brokenbad/item/PhosphoruspowderItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PhosphorusOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/worldgen/placed_feature/phosphorus_ore.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/phosphorus_ore.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/phosphorus_ore.json",
+          "src/main/resources/data/breaking_chemistry/neoforge/biome_modifier/phosphorus_ore_biome_modifier.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/phosphorus_ore.json",
+          "src/main/java/net/mcreator/brokenbad/block/PhosphorusOreBlock.java",
+          "src/main/resources/data/breaking_chemistry/worldgen/configured_feature/phosphorus_ore.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/phosphorus_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DisinfectantLiquid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disinfectant_liquid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/DisinfectantLiquidItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/disinfectant_liquid.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DisinfectantLiquidtrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disinfectant_liquidtrade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/sulfur.json",
+          "src/main/java/net/mcreator/brokenbad/item/SulfurItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Sulfurore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfurore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/worldgen/placed_feature/sulfurore.json",
+          "src/main/resources/data/breaking_chemistry/neoforge/biome_modifier/sulfurore_biome_modifier.json",
+          "src/main/java/net/mcreator/brokenbad/block/SulfuroreBlock.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/sulfurore.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/sulfurore.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/sulfurore.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/configured_feature/sulfurore.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/sulfurore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Sulfurbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfurbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/worldgen/placed_feature/sulfurbiome_tree.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/configured_feature/sulfurbiome_tree.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/biome/sulfurbiome.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "HeatingMantleCraftingProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_crafting_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/HeatingMantleCraftingProcProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "MagneticStirrerCraftingProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnetic_stirrer_crafting_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/MagneticStirrerCraftingProcProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "MagneticStirrerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnetic_stirrer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/network/MagneticStirrerGUIButtonMessage.java",
+          "src/main/java/net/mcreator/brokenbad/client/gui/MagneticStirrerGUIScreen.java",
+          "src/main/java/net/mcreator/brokenbad/world/inventory/MagneticStirrerGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Tray",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/TrayItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/tray.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FilteredAcidSolution",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filtered_acid_solution",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/filtered_acid_solution.json",
+          "src/main/java/net/mcreator/brokenbad/item/FilteredAcidSolutionItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WetBlueCrystals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_blue_crystals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/WetBlueCrystalsItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/wet_blue_crystals.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LaboratorySeparatorgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_separatorgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/world/inventory/LaboratorySeparatorguiMenu.java",
+          "src/main/java/net/mcreator/brokenbad/network/LaboratorySeparatorguiButtonMessage.java",
+          "src/main/java/net/mcreator/brokenbad/client/gui/LaboratorySeparatorguiScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "LaboratorySeparatorRecipeProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_separator_recipe_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/LaboratorySeparatorRecipeProcProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "GasLiquidContactor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_liquid_contactor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/block/gas_liquid_contactor.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/gas_liquid_contactor.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/gas_liquid_contactor.json",
+          "src/main/resources/assets/breaking_chemistry/blockstates/gas_liquid_contactor.json",
+          "src/main/java/net/mcreator/brokenbad/block/GasLiquidContactorBlock.java",
+          "src/main/java/net/mcreator/brokenbad/block/entity/GasLiquidContactorBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GasLiquidContactorgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_liquid_contactorgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/network/GasLiquidContactorguiButtonMessage.java",
+          "src/main/java/net/mcreator/brokenbad/world/inventory/GasLiquidContactorguiMenu.java",
+          "src/main/java/net/mcreator/brokenbad/client/gui/GasLiquidContactorguiScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "GasLiquidContactorgui2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_liquid_contactorgui_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/client/gui/GasLiquidContactorgui2Screen.java",
+          "src/main/java/net/mcreator/brokenbad/world/inventory/GasLiquidContactorgui2Menu.java",
+          "src/main/java/net/mcreator/brokenbad/network/GasLiquidContactorgui2ButtonMessage.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "OpenGUI2Contactor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_2_contactor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/OpenGUI2ContactorProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "OpenGUI1Contactor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_1_contactor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/OpenGUI1ContactorProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "ContactorRecipe1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contactor_recipe_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/ContactorRecipe1Procedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "HydrogenchlorideInTank",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrogenchloride_in_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/hydrogenchloride_in_tank.json",
+          "src/main/java/net/mcreator/brokenbad/item/HydrogenchlorideInTankItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ContactorRecipe2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contactor_recipe_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/ContactorRecipe2Procedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Dryer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/block/entity/DryerBlockEntity.java",
+          "src/main/java/net/mcreator/brokenbad/block/DryerBlock.java",
+          "src/main/resources/assets/breaking_chemistry/blockstates/dryer.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/dryer.json",
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/dryer.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/dryer.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DryerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/network/DryerGUIButtonMessage.java",
+          "src/main/java/net/mcreator/brokenbad/client/gui/DryerGUIScreen.java",
+          "src/main/java/net/mcreator/brokenbad/world/inventory/DryerGUIMenu.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "DryerRecipeProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryer_recipe_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/DryerRecipeProcProcedure.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "HempPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/hemp_pot_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HeatingMantleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/heating_mantle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MagneticstirrerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magneticstirrer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/magneticstirrer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Chemicaltablerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemicaltablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/chemicaltablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Growlightrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growlightrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/growlightrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GasliquidcontactorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gasliquidcontactor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/gasliquidcontactor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DryerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/dryer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RoundbottomedflaskRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roundbottomedflask_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/roundbottomedflask_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CondenserRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condenser_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/condenser_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GasTankRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_tank_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/gas_tank_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JointRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/joint_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PhosphoruspowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphoruspowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/phosphoruspowder_recipe.json",
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/phosphoruspowder_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PhosphoruspowderRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphoruspowder_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/phosphoruspowder_recipe_2.json",
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/phosphoruspowder_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SulfurRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/sulfur_recipe.json",
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/sulfur_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SulfurRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/sulfur_recipe_2.json",
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/sulfur_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/tray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HempSeedsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_seeds_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/hemp_seeds_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HempSeedsRecipe2",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_seeds_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_table/blocks/short_grass.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "HeatingMantleTypeJEI",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heating_mantle_type_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/HeatingMantleTypeJEIRecipeCategory.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/HeatingMantleTypeJEIRecipe.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "IngredientsinthebottleJEIRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingredientsinthebottle_jei_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/ingredientsinthebottle_jei_recipe.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "MagneticstirrerJEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magneticstirrer_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/MagneticstirrerJEITypeRecipe.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/MagneticstirrerJEITypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "PostReactionMixtureJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "post_reaction_mixture_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/post_reaction_mixture_jei.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "LaboratoryseparatorJEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratoryseparator_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/LaboratoryseparatorJEITypeRecipe.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/LaboratoryseparatorJEITypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "FilteredProductInTrayJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filtered_product_in_tray_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/filtered_product_in_tray_jei.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "GaslqJEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaslq_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/GaslqJEITypeRecipe.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/GaslqJEITypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "WetproductJEIrecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wetproduct_je_irecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/wetproduct_je_irecipe.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "Gaslq2JEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaslq_2_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/Gaslq2JEITypeRecipe.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/Gaslq2JEITypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "GasRecipeJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_recipe_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/gas_recipe_jei.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "DryerJEITYPE",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryer_jeitype",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/DryerJEITYPERecipe.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/DryerJEITYPERecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "MethDryerJeiRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_dryer_jei_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/meth_dryer_jei_recipe.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "MethCastle1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_castle_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/worldgen/structure/meth_castle_1.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/structure_set/meth_castle_1.json",
+          "src/main/resources/data/breaking_chemistry/worldgen/template_pool/meth_castle_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "BoxVape",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/BoxVapeItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/box_vape.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/BoxVapePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeEveryTickWhileUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_every_tick_while_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/BoxVapeEveryTickWhileUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeWithoutCoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_without_coil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/box_vape_without_coil.json",
+          "src/main/java/net/mcreator/brokenbad/item/BoxVapeWithoutCoilItem.java",
+          "src/main/java/net/mcreator/brokenbad/item/inventory/BoxVapeWithoutCoilInventoryCapability.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "VapeCoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_coil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/vape_coil.json",
+          "src/main/java/net/mcreator/brokenbad/item/VapeCoilItem.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Vapelq",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vapelq",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/item/VapelqItem.java",
+          "src/main/resources/assets/breaking_chemistry/models/item/vapelq.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/world/inventory/BoxVapeGUIMenu.java",
+          "src/main/java/net/mcreator/brokenbad/client/gui/BoxVapeGUIScreen.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/BoxVapeGUIWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeOnDroppedItemEntityDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_on_dropped_item_entity_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/BoxVapeOnDroppedItemEntityDestroyedProcedure.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "SteelSpring",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_spring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/models/item/steel_spring.json",
+          "src/main/java/net/mcreator/brokenbad/item/SteelSpringItem.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "CoilRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coil_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/coil_recipe.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "SpringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/spring_recipe.json"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_recipe",
+      "path": "~/Vapes"
+    },
+    {
+      "name": "Dealercache",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealercache",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/loot_table/blocks/dealercache.json",
+          "src/main/resources/assets/breaking_chemistry/models/item/dealercache.json",
+          "src/main/java/net/mcreator/brokenbad/block/DealercacheBlock.java",
+          "src/main/resources/assets/breaking_chemistry/blockstates/dealercache.json",
+          "src/main/resources/assets/breaking_chemistry/models/block/dealercache.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DealerVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealer_villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/breaking_chemistry/textures/entity/villager/profession/dealer_villager.png.mcmeta"
+        ]
+      },
+      "path": "~/Villagers"
+    },
+    {
+      "name": "DealerCacheRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealer_cache_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/dealer_cache_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BoxVapeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/procedures/BoxVapeRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Vapes"
+    },
+    {
+      "name": "BoxVapeJEI",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box_vape_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/BoxVapeJEIRecipeCategory.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/BoxVapeJEIRecipe.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "RefillBoxVapeRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refill_box_vape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/refill_box_vape_recipe.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "LaboratorySeparatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_separator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/laboratory_separator_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/salt_recipe.json",
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/salt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SaltRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/advancement/recipes/salt_recipe_2.json",
+          "src/main/resources/data/breaking_chemistry/recipe/salt_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HempPotRecipeJeiType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_pot_recipe_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/HempPotRecipeJeiTypeRecipeCategory.java",
+          "src/main/java/net/mcreator/brokenbad/jei_recipes/HempPotRecipeJeiTypeRecipe.java"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    },
+    {
+      "name": "WeedRecipeJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_recipe_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/breaking_chemistry/recipe/weed_recipe_jei.json"
+        ]
+      },
+      "path": "~/JEI_Recipe"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "hempPotCounter",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "showGreenOverlay",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "showMethOverlay",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "defaultmethplayercoords",
+      "type": "vector",
+      "scope": "player_lifetime",
+      "value": "Vec3.ZERO"
+    },
+    {
+      "name": "methDimensionTime",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "visitedMethWorld",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "methWorldCoords",
+      "type": "vector",
+      "scope": "player_persistent",
+      "value": "Vec3.ZERO"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "vape_sound",
+      "files": [
+        "vape_sound"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Dealercache",
+      "~CUSTOM:Sulfurore",
+      "~CUSTOM:PhosphorusOre",
+      "~CUSTOM:Laboratoryseparator",
+      "~CUSTOM:Saltore",
+      "~CUSTOM:Growlight",
+      "~CUSTOM:Chemicaltable",
+      "~CUSTOM:Magneticstirrer",
+      "~CUSTOM:HeatingMantle",
+      "~CUSTOM:HempPot"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PhosphorusOre",
+      "~CUSTOM:Laboratoryseparator",
+      "~CUSTOM:Saltore",
+      "~CUSTOM:Growlight",
+      "~CUSTOM:Chemicaltable",
+      "~CUSTOM:Magneticstirrer",
+      "~CUSTOM:HeatingMantle"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:BoxVape",
+      "~CUSTOM:Joint"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AMETHYST_BLOCK",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ],
+    "BLOCKS:mod:tag": [
+      "TAG:minecraft:overworld_carver_replaceables",
+      "Blocks.DIRT#0",
+      "Blocks.GRAVEL",
+      "CUSTOM:Saltore",
+      "Blocks.AMETHYST_BLOCK"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Dealercache",
+      "~CUSTOM:Sulfurore"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:Sulfurbiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:Sulfurbiome"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:MethHighBiome"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:MethHighBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:MethHighBiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:MethHighBiome"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.broken_bad.broken_bad": "Broken Bad",
+      "item.broken_bad.hemp_seeds": "Hemp Seeds",
+      "block.broken_bad.hemp_pot": "Hemp Pot",
+      "item.broken_bad.weed": "Weed",
+      "item.broken_bad.round_bottomed_flask": "Round-bottomed Flask",
+      "block.broken_bad.heating_mantle": "Heating Mantle",
+      "gui.broken_bad.heating_mantle_gui.label_heating_mantle": "Heating Mantle",
+      "gui.broken_bad.heating_mantle_gui.button_heat": "Heat",
+      "gui.broken_bad.heating_mantle_gui.label_power_100000_400000": "Power: 100,000 / 400,000",
+      "item.broken_bad.chemical_condenser": "Chemical Condenser",
+      "block.broken_bad.magneticstirrer": "Magnetic stirrer",
+      "block.broken_bad.chemicaltable": "Chemical Table",
+      "block.broken_bad.growlight": "Grow Light",
+      "item.broken_bad.salt": "Salt",
+      "block.broken_bad.saltore": "Salt Ore",
+      "item.broken_bad.gas_tank": "Gas Tank",
+      "item.broken_bad.joint": "Joint",
+      "gui.broken_bad.green_screen_overlay.label_cwel": "cwel",
+      "item.broken_bad.meth": "Meth",
+      "biome.broken_bad.meth_high_biome": "Meth High Biome",
+      "item.broken_bad.fat_bunny_spawn_egg": "Fat Bunny Spawn Egg",
+      "entity.broken_bad.fat_bunny": "Fat Bunny",
+      "effect.broken_bad.meth_high": "Meth High",
+      "block.broken_bad.laboratoryseparator": "Laboratory Separator",
+      "item.broken_bad.postreactionmixture": "Post-reaction mixture",
+      "item.broken_bad.ingredientsinthebottle": "Ingredients In The Bottle",
+      "item.broken_bad.coldtablets": "Cold Tablets",
+      "item.broken_bad.phosphoruspowder": "Phosphorus Powder",
+      "block.broken_bad.phosphorus_ore": "Phosphorus Ore",
+      "item.broken_bad.disinfectant_liquid": "Disinfectant Liquid",
+      "item.broken_bad.sulfur": "Sulfur",
+      "block.broken_bad.sulfurore": "Sulfur Ore",
+      "biome.broken_bad.sulfurbiome": "Sulfur Cave",
+      "gui.broken_bad.magnetic_stirrer_gui.label_magnetic_stirrer": "Magnetic Stirrer",
+      "gui.broken_bad.magnetic_stirrer_gui.button_stir": "Stir",
+      "item.broken_bad.tray": "Tray",
+      "item.broken_bad.filtered_acid_solution": "Filtered Acid Solution",
+      "item.broken_bad.wet_blue_crystals": "Wet Blue Crystals",
+      "gui.broken_bad.laboratory_separatorgui.button_separate": "Separate",
+      "gui.broken_bad.laboratory_separatorgui.label_laboratory_separator": "Laboratory Separator",
+      "block.broken_bad.gas_liquid_contactor": "Gas-Liquid Contactor",
+      "gui.broken_bad.gas_liquid_contactorgui.label_gasliquid_contactor": "Gas-Liquid Contactor",
+      "gui.broken_bad.gas_liquid_contactorgui_2.label_gasliquid_contactor": "Gas-Liquid Contactor",
+      "gui.broken_bad.gas_liquid_contactorgui_2.button_create": "Create",
+      "gui.broken_bad.gas_liquid_contactorgui.button_crystallize": "Crystallize",
+      "item.broken_bad.hydrogenchloride_in_tank": "Hydrogen Chloride In Tank",
+      "block.broken_bad.dryer": "Dryer",
+      "gui.broken_bad.dryer_gui.label_dryer": "Dryer",
+      "gui.broken_bad.dryer_gui.button_dry": "Dry",
+      "item_group.breaking_chemistry.broken_bad": "Breaking Chemistry",
+      "item.breaking_chemistry.hemp_seeds": "Hemp Seeds",
+      "block.breaking_chemistry.hemp_pot": "Hemp Pot",
+      "item.breaking_chemistry.weed": "Weed",
+      "item.breaking_chemistry.round_bottomed_flask": "Round-bottomed Flask",
+      "block.breaking_chemistry.heating_mantle": "Heating Mantle",
+      "gui.breaking_chemistry.heating_mantle_gui.button_heat": "Heat",
+      "gui.breaking_chemistry.heating_mantle_gui.label_heating_mantle": "Heating Mantle",
+      "item.breaking_chemistry.chemical_condenser": "Chemical Condenser",
+      "block.breaking_chemistry.magneticstirrer": "Magnetic stirrer",
+      "block.breaking_chemistry.chemicaltable": "Chemical Table",
+      "block.breaking_chemistry.growlight": "Grow Light",
+      "item.breaking_chemistry.salt": "Salt",
+      "block.breaking_chemistry.saltore": "Salt Ore",
+      "item.breaking_chemistry.gas_tank": "Gas Tank",
+      "item.breaking_chemistry.joint": "Joint",
+      "item.breaking_chemistry.meth": "Meth",
+      "biome.breaking_chemistry.meth_high_biome": "Meth High Biome",
+      "entity.breaking_chemistry.fat_bunny": "Fat Bunny",
+      "item.breaking_chemistry.fat_bunny_spawn_egg": "Fat Bunny Spawn Egg",
+      "effect.breaking_chemistry.meth_high": "Meth High",
+      "block.breaking_chemistry.laboratoryseparator": "Laboratory Separator",
+      "item.breaking_chemistry.postreactionmixture": "Post-reaction mixture",
+      "item.breaking_chemistry.ingredientsinthebottle": "Ingredients In The Bottle",
+      "item.breaking_chemistry.coldtablets": "Cold Tablets",
+      "item.breaking_chemistry.phosphoruspowder": "Phosphorus Powder",
+      "block.breaking_chemistry.phosphorus_ore": "Phosphorus Ore",
+      "item.breaking_chemistry.disinfectant_liquid": "Disinfectant Liquid",
+      "item.breaking_chemistry.sulfur": "Sulfur",
+      "block.breaking_chemistry.sulfurore": "Sulfur Ore",
+      "biome.breaking_chemistry.sulfurbiome": "Sulfur Cave",
+      "gui.breaking_chemistry.magnetic_stirrer_gui.label_magnetic_stirrer": "Magnetic Stirrer",
+      "gui.breaking_chemistry.magnetic_stirrer_gui.button_stir": "Stir",
+      "item.breaking_chemistry.tray": "Tray",
+      "item.breaking_chemistry.filtered_acid_solution": "Filtered Acid Solution",
+      "item.breaking_chemistry.wet_blue_crystals": "Wet Blue Crystals",
+      "gui.breaking_chemistry.laboratory_separatorgui.button_separate": "Separate",
+      "gui.breaking_chemistry.laboratory_separatorgui.label_laboratory_separator": "Laboratory Separator",
+      "block.breaking_chemistry.gas_liquid_contactor": "Gas-Liquid Contactor",
+      "gui.breaking_chemistry.gas_liquid_contactorgui.button_crystallize": "Crystallize",
+      "gui.breaking_chemistry.gas_liquid_contactorgui.label_gasliquid_contactor": "Gas-Liquid Contactor",
+      "gui.breaking_chemistry.gas_liquid_contactorgui_2.label_gasliquid_contactor": "Gas-Liquid Contactor",
+      "gui.breaking_chemistry.gas_liquid_contactorgui_2.button_create": "Create",
+      "item.breaking_chemistry.hydrogenchloride_in_tank": "Hydrogen Chloride In Tank",
+      "block.breaking_chemistry.dryer": "Dryer",
+      "gui.breaking_chemistry.dryer_gui.button_dry": "Dry",
+      "gui.breaking_chemistry.dryer_gui.label_dryer": "Dryer",
+      "item.breaking_chemistry.box_vape": "Vape",
+      "item.breaking_chemistry.box_vape_without_coil": "Empty Vape",
+      "item.breaking_chemistry.vape_coil": "Vape Coil",
+      "item.breaking_chemistry.vapelq": "Vape Liquid",
+      "gui.breaking_chemistry.box_vape_gui.button_repair": "Repair",
+      "item.breaking_chemistry.steel_spring": "Steel Spring",
+      "block.breaking_chemistry.dealercache": "Dealer Cache",
+      "entity.minecraft.villager.breaking_chemistry.dealer_villager": "Dealer",
+      "subtitles.vape_sound": ""
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/brokenbad/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModBiomes.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModMenus.java",
+      "src/main/java/net/mcreator/brokenbad/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModScreens.java",
+      "src/main/resources/data/breaking_chemistry/tags/item/jei_empty_tag.json",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModRecipeTypes.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModJeiPlugin.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModParticleTypes.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModParticles.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModMobEffects.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModBrewingRecipes.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModVillagerProfessions.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModTrades.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModBlocks.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModBlockEntities.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModItems.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModEntities.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModEntityRenderers.java",
+      "src/main/java/net/mcreator/brokenbad/BreakingChemistryMod.java",
+      "src/main/resources/breaking_chemistry.mixins.json",
+      "src/main/java/net/mcreator/brokenbad/network/BreakingChemistryModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/breaking_chemistry/sounds.json",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModTabs.java",
+      "src/main/java/net/mcreator/brokenbad/init/BreakingChemistryModModels.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "JEI_Recipe",
+        "children": []
+      },
+      {
+        "name": "Vapes",
+        "children": []
+      },
+      {
+        "name": "Villagers",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "breaking_chemistry",
+    "modName": "Breaking Chemistry",
+    "version": "1.0.0",
+    "description": "A simple Minecraft mod that introduces a system for growing weed and producing methamphetamine, and adds vapes!",
+    "author": "Dogender",
+    "websiteURL": "https://github.com/Dogender2/Breaking-Chemistry-Mod",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.brokenbad"
+  },
+  "mcreatorVersion": 202600114619
+}

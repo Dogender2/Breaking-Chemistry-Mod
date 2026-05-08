@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "breaking_chemistry:heating_mantle",
+    "breaking_chemistry:magneticstirrer",
+    "breaking_chemistry:saltore",
+    "breaking_chemistry:laboratoryseparator",
+    "breaking_chemistry:dealercache",
+    "breaking_chemistry:sulfurore",
+    "breaking_chemistry:hemp_pot",
+    "breaking_chemistry:phosphorus_ore",
+    "breaking_chemistry:growlight",
+    "breaking_chemistry:chemicaltable"
+  ]
+}

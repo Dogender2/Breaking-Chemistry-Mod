@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "hemp_pot_txt1",
+        "1": "hemp_pot_dirt",
+        "3": "hempplant1",
+        "4": "hempplanttxtlodyga",
+        "5": "szyszekplant123",
+        "missing": ""
+      }
+    }
+  }
+}

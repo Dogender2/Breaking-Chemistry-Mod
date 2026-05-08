@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "box_vape_jei",
+    "ingredients": [
+      {
+        "value": "CUSTOM:Vapelq"
+      },
+      {
+        "value": "CUSTOM:VapeCoil"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "BoxVapeJEI",
+    "results": [
+      {
+        "value": "CUSTOM:BoxVape"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

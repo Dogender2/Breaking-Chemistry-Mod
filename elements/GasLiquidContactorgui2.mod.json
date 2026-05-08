@@ -1,0 +1,198 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gas_lq_icon.png",
+          "use1Xscale": false,
+          "x": 117,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gasliquid_contactor",
+          "text": {
+            "fixedValue": "Gas-Liquid Contactor"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 133,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 169,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft_arrow_icon.png",
+          "use1Xscale": false,
+          "x": 225,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_heating_mantle_gui_while_th",
+          "text": {
+            "fixedValue": "",
+            "name": "HeatingMantleGUIWhileThisGUIIsOpenTick"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 169,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 205,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plus_icon.png",
+          "use1Xscale": false,
+          "x": 188,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_tab_create_txt",
+          "image": "tab_create_txt.png",
+          "hoveredImage": "",
+          "x": 168,
+          "y": 5,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_tab_template_txt",
+          "image": "tab_template_txt.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenGUI1Contactor"
+          },
+          "x": 140,
+          "y": 5,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:GasTank"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 187,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_create",
+          "text": "Create",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ContactorRecipe2"
+          },
+          "width": 54,
+          "height": 20,
+          "x": 214,
+          "y": 79,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gray_concrete"
+    },
+    "b": {
+      "item": "minecraft:white_concrete_powder"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "breaking_chemistry:chemicaltable",
+    "count": 2
+  }
+}

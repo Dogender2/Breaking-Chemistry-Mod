@@ -1,0 +1,31 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "laboratoryseparator_jei_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:Postreactionmixture"
+      },
+      {
+        "value": "CUSTOM:Tray"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "LaboratoryseparatorJEIType",
+    "results": [
+      {
+        "value": "CUSTOM:FilteredAcidSolution"
+      },
+      {
+        "value": "CUSTOM:RoundBottomedFlask"
+      }
+    ],
+    "resultCounts": [
+      1,
+      1
+    ],
+    "count": 0
+  }
+}

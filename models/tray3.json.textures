@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "tray_txt",
+        "1": "wet_product_txt"
+      }
+    }
+  }
+}

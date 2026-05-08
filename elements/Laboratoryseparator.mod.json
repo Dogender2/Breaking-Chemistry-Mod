@@ -1,0 +1,266 @@
+{
+  "_fv": 85,
+  "_type": "block",
+  "definition": {
+    "texture": "laboratory_separator_txt",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "laboratory_separator:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "states": [],
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "minecraft:gray_concrete",
+    "blockSetType": "OAK",
+    "leavesParticleChance": 0.0,
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 3.7,
+        "my": 0.0,
+        "mz": 3.7,
+        "Mx": 12.3,
+        "My": 2.0,
+        "Mz": 12.3,
+        "subtract": false
+      },
+      {
+        "mx": 11.0,
+        "my": 2.0,
+        "mz": 7.5,
+        "Mx": 12.0,
+        "My": 12.9,
+        "Mz": 8.5,
+        "subtract": false
+      },
+      {
+        "mx": 4.0,
+        "my": 2.0,
+        "mz": 7.5,
+        "Mx": 5.0,
+        "My": 12.9,
+        "Mz": 8.5,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 11.9,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 12.9,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.51,
+        "my": 1.66,
+        "mz": 5.51,
+        "Mx": 10.49,
+        "My": 3.735,
+        "Mz": 10.49,
+        "subtract": false
+      },
+      {
+        "mx": 6.34,
+        "my": 3.735,
+        "mz": 6.34,
+        "Mx": 9.66,
+        "My": 4.15,
+        "Mz": 9.66,
+        "subtract": false
+      },
+      {
+        "mx": 6.34,
+        "my": 6.225,
+        "mz": 6.34,
+        "Mx": 9.66,
+        "My": 6.64,
+        "Mz": 9.66,
+        "subtract": false
+      },
+      {
+        "mx": 5.51,
+        "my": 4.15,
+        "mz": 5.51,
+        "Mx": 10.49,
+        "My": 6.225,
+        "Mz": 10.49,
+        "subtract": false
+      },
+      {
+        "mx": 6.34,
+        "my": 11.205,
+        "mz": 6.34,
+        "Mx": 9.66,
+        "My": 11.62,
+        "Mz": 9.66,
+        "subtract": false
+      },
+      {
+        "mx": 5.51,
+        "my": 9.13,
+        "mz": 5.51,
+        "Mx": 10.49,
+        "My": 11.205,
+        "Mz": 10.49,
+        "subtract": false
+      },
+      {
+        "mx": 5.51,
+        "my": 11.63,
+        "mz": 5.51,
+        "Mx": 10.49,
+        "My": 13.005,
+        "Mz": 10.49,
+        "subtract": false
+      },
+      {
+        "mx": 6.34,
+        "my": 8.715,
+        "mz": 6.34,
+        "Mx": 9.66,
+        "My": 9.13,
+        "Mz": 9.66,
+        "subtract": false
+      },
+      {
+        "mx": 5.51,
+        "my": 6.64,
+        "mz": 5.51,
+        "Mx": 10.49,
+        "My": 8.715,
+        "Mz": 10.49,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Laboratory Separator",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BrokenBad"
+      }
+    ],
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "hasCustomOpacity": true,
+    "lightOpacity": 0,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": {
+      "fixedValue": 0.0
+    },
+    "unbreakable": false,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": true,
+    "guiBoundTo": "LaboratorySeparatorgui",
+    "openGUIOnRightClick": true,
+    "inventorySize": 4,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": true,
+    "energyInitial": 0,
+    "energyCapacity": 4000,
+    "energyMaxReceive": 2000,
+    "energyMaxExtract": 2000,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

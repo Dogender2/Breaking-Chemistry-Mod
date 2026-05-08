@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "breaking_chemistry:blocks/chemicaltable",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "breaking_chemistry:chemicaltable"
+        }
+      ]
+    }
+  ]
+}

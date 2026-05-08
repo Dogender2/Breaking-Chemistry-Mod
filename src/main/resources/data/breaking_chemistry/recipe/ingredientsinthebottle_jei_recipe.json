@@ -1,0 +1,26 @@
+{
+  "type": "breaking_chemistry:heating_mantle_type_jei",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:round_bottomed_flask"
+    },
+    {
+      "item": "breaking_chemistry:chemical_condenser"
+    },
+    {
+      "item": "breaking_chemistry:coldtablets"
+    },
+    {
+      "item": "breaking_chemistry:phosphoruspowder"
+    },
+    {
+      "item": "breaking_chemistry:disinfectant_liquid"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:ingredientsinthebottle",
+      "count": 1
+    }
+  ]
+}

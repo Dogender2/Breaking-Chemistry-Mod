@@ -1,0 +1,9 @@
+{
+  "parent": "breaking_chemistry:custom/heating_mantle",
+  "textures": {
+    "all": "breaking_chemistry:block/heating_mantle_bodytxt",
+    "particle": "minecraft:block/iron_block",
+    "0": "breaking_chemistry:block/heating_mantle_bodytxt"
+  },
+  "render_type": "translucent"
+}

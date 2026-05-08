@@ -1,0 +1,21 @@
+{
+  "type": "breaking_chemistry:laboratoryseparator_jei_type",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:postreactionmixture"
+    },
+    {
+      "item": "breaking_chemistry:tray"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:filtered_acid_solution",
+      "count": 1
+    },
+    {
+      "id": "breaking_chemistry:round_bottomed_flask",
+      "count": 1
+    }
+  ]
+}

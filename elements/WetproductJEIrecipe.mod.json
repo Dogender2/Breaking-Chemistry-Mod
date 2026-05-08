@@ -1,0 +1,27 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "gaslq_jei_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:FilteredAcidSolution"
+      },
+      {
+        "value": "CUSTOM:HydrogenchlorideInTank"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "GaslqJEIType",
+    "results": [
+      {
+        "value": "CUSTOM:WetBlueCrystals"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:white_concrete",
+        "1": "minecraft:gray_concrete"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/tray1",
+  "textures": {
+    "0": "breaking_chemistry:block/tray_txt",
+    "particle": "breaking_chemistry:item/round-bottomed_flask-txt"
+  }
+}

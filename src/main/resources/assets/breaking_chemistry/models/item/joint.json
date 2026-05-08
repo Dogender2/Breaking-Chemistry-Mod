@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/joint100",
+  "textures": {
+    "0": "breaking_chemistry:block/joint100_txt",
+    "particle": "breaking_chemistry:item/weedtxt"
+  }
+}

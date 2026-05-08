@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/disinfectant_liquid",
+  "textures": {
+    "0": "breaking_chemistry:block/disinfectant_liquid_txt",
+    "particle": "breaking_chemistry:item/disinfectant_liquid_txt"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "breaking_chemistry:meth_high_biome",
+  "spawners": {
+    "type": "breaking_chemistry:fat_bunny",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:white_stained_glass",
+        "1": "minecraft:stone",
+        "2": "vape_box_top_txt",
+        "3": "box_vape_body_txt"
+      }
+    }
+  }
+}

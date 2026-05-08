@@ -1,0 +1,30 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "gaslq_2_jei_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:Salt"
+      },
+      {
+        "value": "CUSTOM:Sulfur"
+      },
+      {
+        "value": "CUSTOM:GasTank"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "Gaslq2JEIType",
+    "results": [
+      {
+        "value": "CUSTOM:HydrogenchlorideInTank"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

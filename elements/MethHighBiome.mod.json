@@ -1,0 +1,138 @@
+{
+  "_fv": 85,
+  "_type": "biome",
+  "definition": {
+    "name": "Meth High Biome",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.SAND#1"
+    },
+    "airColor": {
+      "value": -3900,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -1718683,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16711824,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16711824,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16720385,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16720385,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:HempParticle"
+    },
+    "particlesProbability": 0.3,
+    "rainingPossibility": 1.0,
+    "temperature": 1.1,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": -1.5,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genWeirdness": {
+      "min": -2.0,
+      "max": 2.0
+    },
+    "genDepth": {
+      "min": 0.2,
+      "max": 0.9
+    },
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 17,
+    "treeStem": {
+      "value": "Blocks.STRIPPED_BIRCH_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+    },
+    "treeVines": {
+      "value": "Blocks.CHERRY_LEAVES"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:FatBunny"
+        },
+        "minGroup": 16,
+        "maxGroup": 32,
+        "weight": 60,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

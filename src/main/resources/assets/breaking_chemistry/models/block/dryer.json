@@ -1,0 +1,11 @@
+{
+  "parent": "breaking_chemistry:custom/dryer",
+  "textures": {
+    "all": "minecraft:block/white_stained_glass",
+    "particle": "minecraft:block/white_stained_glass",
+    "0": "minecraft:block/gray_concrete",
+    "1": "minecraft:block/white_stained_glass",
+    "2": "minecraft:block/white_concrete"
+  },
+  "render_type": "translucent"
+}

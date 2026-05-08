@@ -1,0 +1,23 @@
+{
+  "type": "breaking_chemistry:hemp_pot_recipe_jei_type",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:hemp_pot"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "breaking_chemistry:hemp_seeds"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:weed",
+      "count": 3
+    }
+  ]
+}

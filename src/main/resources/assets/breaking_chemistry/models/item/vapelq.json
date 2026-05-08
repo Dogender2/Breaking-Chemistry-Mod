@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/vape_lq",
+  "textures": {
+    "0": "breaking_chemistry:block/vape_lq_txt",
+    "particle": "minecraft:item/ominous_bottle"
+  }
+}

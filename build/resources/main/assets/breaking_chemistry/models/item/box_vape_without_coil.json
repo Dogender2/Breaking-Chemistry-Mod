@@ -1,0 +1,10 @@
+{
+  "parent": "breaking_chemistry:custom/box_vape",
+  "textures": {
+    "0": "minecraft:block/white_stained_glass",
+    "1": "minecraft:block/stone",
+    "2": "breaking_chemistry:block/vape_box_top_txt",
+    "3": "breaking_chemistry:block/box_vape_body_txt",
+    "particle": "minecraft:item/blaze_powder"
+  }
+}

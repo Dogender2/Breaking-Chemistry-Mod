@@ -1,0 +1,20 @@
+{
+  "_fv": 85,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [],
+    "baseTexture": "greenscreentxt1.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ShowOverlay10s"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

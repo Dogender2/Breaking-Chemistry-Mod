@@ -1,0 +1,10 @@
+{
+  "parent": "breaking_chemistry:custom/grow_light",
+  "textures": {
+    "all": "breaking_chemistry:block/grow_lamp",
+    "particle": "minecraft:block/amethyst_block",
+    "0": "breaking_chemistry:block/grow_lamp",
+    "1": "breaking_chemistry:block/grow_lamp_light"
+  },
+  "render_type": "cutout"
+}

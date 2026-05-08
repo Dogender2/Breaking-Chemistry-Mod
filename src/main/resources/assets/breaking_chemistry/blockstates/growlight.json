@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "breaking_chemistry:block/growlight"
+    },
+    "facing=east": {
+      "model": "breaking_chemistry:block/growlight",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "breaking_chemistry:block/growlight",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "breaking_chemistry:block/growlight",
+      "y": 270
+    }
+  }
+}

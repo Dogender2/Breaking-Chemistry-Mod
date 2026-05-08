@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "breaking_chemistry:meth_castle_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 14,
+    "salt": 1237540560
+  }
+}

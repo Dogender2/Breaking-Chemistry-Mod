@@ -1,0 +1,14 @@
+{
+  "type": "breaking_chemistry:magneticstirrer_jei_type",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:ingredientsinthebottle"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:postreactionmixture",
+      "count": 1
+    }
+  ]
+}

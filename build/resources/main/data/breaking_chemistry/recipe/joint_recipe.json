@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ab",
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "breaking_chemistry:weed"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "breaking_chemistry:joint",
+    "count": 1
+  }
+}

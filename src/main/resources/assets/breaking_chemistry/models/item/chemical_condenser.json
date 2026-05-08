@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/chemical_condenser",
+  "textures": {
+    "0": "breaking_chemistry:block/chemical_condenser_txt1",
+    "particle": "breaking_chemistry:item/chemical_condenser_txt1"
+  }
+}

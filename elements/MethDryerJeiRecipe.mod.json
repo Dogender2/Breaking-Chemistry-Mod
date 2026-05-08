@@ -1,0 +1,28 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "dryer_jeitype",
+    "ingredients": [
+      {
+        "value": "CUSTOM:WetBlueCrystals"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "DryerJEITYPE",
+    "results": [
+      {
+        "value": "CUSTOM:Meth"
+      },
+      {
+        "value": "CUSTOM:Tray"
+      }
+    ],
+    "resultCounts": [
+      4,
+      1
+    ],
+    "count": 0
+  }
+}

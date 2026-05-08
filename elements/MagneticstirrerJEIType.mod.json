@@ -1,0 +1,44 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jei_magneticstirrer.png",
+    "width": 175,
+    "height": 79,
+    "icon": {
+      "value": "CUSTOM:Magneticstirrer"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:Magneticstirrer"
+      }
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": false,
+    "enableStringList": false,
+    "disableJeiBorder": false,
+    "title": "magnetic Stirrer",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 35,
+        "y": 25,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 134,
+        "y": 25,
+        "slotid": 0
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

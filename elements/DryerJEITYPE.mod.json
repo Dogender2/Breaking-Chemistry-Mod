@@ -1,0 +1,50 @@
+{
+  "_fv": 85,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jei_dryer_gui.png",
+    "width": 175,
+    "height": 81,
+    "icon": {
+      "value": "CUSTOM:Dryer"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:Dryer"
+      }
+    ],
+    "enableCraftingtable": true,
+    "enableIntList": false,
+    "enableStringList": false,
+    "disableJeiBorder": false,
+    "title": "Dryer",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 26,
+        "y": 25,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 98,
+        "y": 25,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 98,
+        "y": 54,
+        "slotid": 1
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

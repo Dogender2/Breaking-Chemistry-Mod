@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:gray_concrete",
+        "1": "minecraft:white_stained_glass",
+        "2": "minecraft:white_concrete"
+      }
+    }
+  }
+}

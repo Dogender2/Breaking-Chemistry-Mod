@@ -1,0 +1,18 @@
+{
+  "type": "breaking_chemistry:dryer_jeitype",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:wet_blue_crystals"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:meth",
+      "count": 4
+    },
+    {
+      "id": "breaking_chemistry:tray",
+      "count": 1
+    }
+  ]
+}

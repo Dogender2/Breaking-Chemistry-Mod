@@ -1,0 +1,8 @@
+{
+  "parent": "breaking_chemistry:custom/ingredients_in_the_bottle",
+  "textures": {
+    "0": "breaking_chemistry:block/round-bottomed_flask-txt",
+    "1": "breaking_chemistry:block/mixtures_txt",
+    "particle": "breaking_chemistry:item/ingredients_in_the_bottle"
+  }
+}

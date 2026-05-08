@@ -1,0 +1,9 @@
+{
+  "parent": "breaking_chemistry:custom/gas_liquid_contactor",
+  "textures": {
+    "all": "breaking_chemistry:block/gas_liquid_contactor",
+    "particle": "breaking_chemistry:block/gas_liquid_contactor",
+    "0": "breaking_chemistry:block/gas_liquid_contactor"
+  },
+  "render_type": "translucent"
+}

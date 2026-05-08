@@ -1,0 +1,10 @@
+{
+  "parent": "breaking_chemistry:custom/chemical_table",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/gray_concrete",
+    "0": "minecraft:block/white_concrete",
+    "1": "minecraft:block/gray_concrete"
+  },
+  "render_type": "solid"
+}

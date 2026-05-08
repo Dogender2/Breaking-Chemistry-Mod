@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "pot_stage=0,growth=0": {
+      "model": "breaking_chemistry:block/hemp_pot_0"
+    },
+    "pot_stage=1,growth=0": {
+      "model": "breaking_chemistry:block/hemp_pot_1"
+    },
+    "pot_stage=2,growth=0": {
+      "model": "breaking_chemistry:block/hemp_pot_2"
+    },
+    "pot_stage=2,growth=1": {
+      "model": "breaking_chemistry:block/hemp_pot_3"
+    },
+    "pot_stage=2,growth=2": {
+      "model": "breaking_chemistry:block/hemp_pot_4"
+    },
+    "pot_stage=2,growth=3": {
+      "model": "breaking_chemistry:block/hemp_pot_5"
+    },
+    "pot_stage=1,growth=1": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    },
+    "pot_stage=0,growth=1": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    },
+    "pot_stage=1,growth=2": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    },
+    "pot_stage=0,growth=2": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    },
+    "pot_stage=1,growth=3": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    },
+    "pot_stage=0,growth=3": {
+      "model": "breaking_chemistry:block/hemp_pot"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "vape_sound": {
+    "sounds": [
+      {
+        "name": "breaking_chemistry:vape_sound",
+        "stream": false
+      }
+    ]
+  }
+}

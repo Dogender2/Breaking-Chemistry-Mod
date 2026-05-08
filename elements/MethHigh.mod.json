@@ -1,0 +1,36 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Meth High",
+    "icon": "meth_txt",
+    "color": {
+      "value": -13050113,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "equipmentSlot": "any",
+        "attribute": {
+          "value": "SAFE_FALL_DISTANCE"
+        },
+        "amount": 255.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": {
+      "name": "MethHighEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "MethHighEffectExpires"
+    }
+  }
+}

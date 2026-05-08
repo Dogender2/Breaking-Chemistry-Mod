@@ -1,0 +1,9 @@
+{
+  "parent": "breaking_chemistry:custom/dealer_cache",
+  "textures": {
+    "all": "minecraft:block/polished_blackstone_bricks",
+    "particle": "minecraft:block/polished_blackstone_bricks",
+    "0": "breaking_chemistry:block/dealer_cache_txt"
+  },
+  "render_type": "solid"
+}

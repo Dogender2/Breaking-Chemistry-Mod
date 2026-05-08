@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dirt",
+    "breaking_chemistry:saltore",
+    {
+      "id": "#minecraft:overworld_carver_replaceables",
+      "required": false
+    },
+    "minecraft:amethyst_block",
+    "minecraft:gravel"
+  ]
+}

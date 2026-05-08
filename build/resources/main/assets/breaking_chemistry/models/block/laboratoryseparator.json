@@ -1,0 +1,9 @@
+{
+  "parent": "breaking_chemistry:custom/laboratory_separator",
+  "textures": {
+    "all": "breaking_chemistry:block/laboratory_separator_txt",
+    "particle": "minecraft:block/gray_concrete",
+    "0": "breaking_chemistry:block/laboratory_separator_txt"
+  },
+  "render_type": "solid"
+}

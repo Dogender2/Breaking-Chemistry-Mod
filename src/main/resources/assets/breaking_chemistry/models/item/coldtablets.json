@@ -1,0 +1,7 @@
+{
+  "parent": "breaking_chemistry:custom/cold_tablets",
+  "textures": {
+    "0": "breaking_chemistry:block/cold_tablets_txt",
+    "particle": "breaking_chemistry:item/cold_tablets_txt"
+  }
+}

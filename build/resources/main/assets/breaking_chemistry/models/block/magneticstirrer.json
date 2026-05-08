@@ -1,0 +1,9 @@
+{
+  "parent": "breaking_chemistry:custom/magnetic_stirrer",
+  "textures": {
+    "all": "breaking_chemistry:block/magnetic_stirrer_txt",
+    "particle": "minecraft:block/iron_block",
+    "0": "breaking_chemistry:block/magnetic_stirrer_txt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "breaking_chemistry:custom/hemp_pot_dirt2plant3",
+  "textures": {
+    "all": "breaking_chemistry:block/szyszekplant123",
+    "particle": "breaking_chemistry:block/hemp_pot_txt1",
+    "0": "breaking_chemistry:block/hemp_pot_txt1",
+    "1": "breaking_chemistry:block/hemp_pot_dirt",
+    "3": "breaking_chemistry:block/hempplant1",
+    "4": "breaking_chemistry:block/hempplanttxtlodyga",
+    "5": "breaking_chemistry:block/szyszekplant123",
+    "missing": "breaking_chemistry:block/"
+  },
+  "render_type": "cutout"
+}

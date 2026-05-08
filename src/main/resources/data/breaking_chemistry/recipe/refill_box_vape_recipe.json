@@ -1,0 +1,17 @@
+{
+  "type": "breaking_chemistry:box_vape_jei",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:vapelq"
+    },
+    {
+      "item": "breaking_chemistry:vape_coil"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:box_vape",
+      "count": 1
+    }
+  ]
+}

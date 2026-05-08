@@ -1,0 +1,20 @@
+{
+  "type": "breaking_chemistry:gaslq_2_jei_type",
+  "ingredients": [
+    {
+      "item": "breaking_chemistry:salt"
+    },
+    {
+      "item": "breaking_chemistry:sulfur"
+    },
+    {
+      "item": "breaking_chemistry:gas_tank"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "breaking_chemistry:hydrogenchloride_in_tank",
+      "count": 1
+    }
+  ]
+}

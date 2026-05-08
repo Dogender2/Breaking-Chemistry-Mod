@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,mantle_bottle=true,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle_0"
+    },
+    "facing=north,mantle_bottle=true,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle_1"
+    },
+    "facing=north,mantle_bottle=false,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle"
+    },
+    "facing=north,mantle_bottle=false,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle"
+    },
+    "facing=east,mantle_bottle=true,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle_0",
+      "y": 90
+    },
+    "facing=east,mantle_bottle=true,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle_1",
+      "y": 90
+    },
+    "facing=east,mantle_bottle=false,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 90
+    },
+    "facing=east,mantle_bottle=false,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 90
+    },
+    "facing=south,mantle_bottle=true,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle_0",
+      "y": 180
+    },
+    "facing=south,mantle_bottle=true,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle_1",
+      "y": 180
+    },
+    "facing=south,mantle_bottle=false,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 180
+    },
+    "facing=south,mantle_bottle=false,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 180
+    },
+    "facing=west,mantle_bottle=true,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle_0",
+      "y": 270
+    },
+    "facing=west,mantle_bottle=true,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle_1",
+      "y": 270
+    },
+    "facing=west,mantle_bottle=false,mantle_condenser=true": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 270
+    },
+    "facing=west,mantle_bottle=false,mantle_condenser=false": {
+      "model": "breaking_chemistry:block/heating_mantle",
+      "y": 270
+    }
+  }
+}
