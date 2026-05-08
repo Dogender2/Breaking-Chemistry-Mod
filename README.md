@@ -4,20 +4,20 @@ A simple Minecraft mod that introduces a system for growing marijuana and produc
 This mod takes a unique approach to in-game effects: meth doesn't give you nausea effect, but instead transports you to another world that you can explore while the effect lasts!
 Results like these will motivate you to boost your production!
 
-#🧪 Advanced Meth production processes
+# 🧪 Advanced Meth production processes
 Become a lab master. Forget about simple crafting!
 You need to gather the right ingredients and use the laboratory equipment!
 
-#🌿 Growing weed in Minecraft!
+# 🌿 Growing weed in Minecraft!
 You can create huge marijuana plantations in Minecraft and then sell the crop!
 
-#🚬 Working vapes!
+# 🚬 Working vapes!
 The mod also lets you build vapes that need to be refilled with new coils and e-liquid!
 
-#💰 Street Dealers!
+# 💰 Street Dealers!
 You might come across a villager with dealer proffesion. They’ll sell you the most important things to produce drugs and buy drugs from you!
 
-#⚠️ Disclaimer
+# ⚠️ Disclaimer
 This mod was created solely for entertainment and educational purposes within the context of Minecraft’s game mechanics. It does not promote, encourage, or instruct players on how to produce or use illegal substances in the real world. Remember: chemistry in the game is fun; chemistry in real life is a matter of responsibility and the law.
 
 If you like my work, you can support me here:
