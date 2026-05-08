@@ -21,7 +21,7 @@ You might come across a villager with dealer proffesion. They’ll sell you the 
 This mod was created solely for entertainment and educational purposes within the context of Minecraft’s game mechanics. It does not promote, encourage, or instruct players on how to produce or use illegal substances in the real world. Remember: chemistry in the game is fun; chemistry in real life is a matter of responsibility and the law.
 
 # ❗ Important
-This workspace uses **Just enough recipes** plugin by **NerdyPuzzle**
+This workspace uses **Just enough recipes** plugin by **NerdyPuzzle**\
 🔗 Link: https://mcreator.net/plugin/103347/just-enough-recipes
 
 If you like my work, you can support me here:
